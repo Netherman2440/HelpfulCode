@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T07:26:13.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" version="21.1.4" etag="YkKAI3VjNFm2J4-5gxha" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T07:41:14.107Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="7rk4XENwV_tq82DOugbf" version="21.1.4" type="github">
   <diagram name="Strona-1" id="ppiDdFiOKwHnHWCUE7vk">
-    <mxGraphModel>
+    <mxGraphModel dx="1009" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="40gBcpzJAZzY-nmS1vLe-1" target="40gBcpzJAZzY-nmS1vLe-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="40gBcpzJAZzY-nmS1vLe-1" target="40gBcpzJAZzY-nmS1vLe-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="40gBcpzJAZzY-nmS1vLe-1" target="40gBcpzJAZzY-nmS1vLe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="40gBcpzJAZzY-nmS1vLe-1" target="40gBcpzJAZzY-nmS1vLe-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-1" value="interface IFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-2" value="IProduct GetProduct()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="40gBcpzJAZzY-nmS1vLe-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-5" value="ItemFactory" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="150" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-6" value="Item GetProduct()&lt;br&gt;return Weapon or Armor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="40gBcpzJAZzY-nmS1vLe-5">
+          <mxGeometry y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="40gBcpzJAZzY-nmS1vLe-8" target="40gBcpzJAZzY-nmS1vLe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-8" value="interface IProduct" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-9" value="void Operation()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="40gBcpzJAZzY-nmS1vLe-8">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-12" value="WeaponFactory" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-13" value="Weapon GetProduct()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="40gBcpzJAZzY-nmS1vLe-12">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-15" value="ArmorFactory" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-16" value="Armor GetProduct()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="40gBcpzJAZzY-nmS1vLe-15">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="40gBcpzJAZzY-nmS1vLe-13" target="40gBcpzJAZzY-nmS1vLe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="40gBcpzJAZzY-nmS1vLe-16" target="40gBcpzJAZzY-nmS1vLe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-36" value="BehaviorFactory" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="40gBcpzJAZzY-nmS1vLe-37" value="Behavior GetProduct()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="40gBcpzJAZzY-nmS1vLe-36">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
