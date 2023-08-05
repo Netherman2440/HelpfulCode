@@ -1,9 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T20:47:26.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" version="21.6.6" etag="2pGBkCWJcL97PWXVdCLC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T21:00:29.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="3nhiDYHapE7h2nRG7qeC" version="21.6.6" type="github">
   <diagram name="Strona-1" id="0UkwQ23_jVnsr-kS8y7S">
-    <mxGraphModel>
+    <mxGraphModel dx="1009" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-1" value="Show moves&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-2" value="Player" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-3" value="Serwer" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="50" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEWHLRGhf9K4LhdgxkMF-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-10" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QEWHLRGhf9K4LhdgxkMF-9">
+          <mxGeometry x="-0.3667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEWHLRGhf9K4LhdgxkMF-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-12" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QEWHLRGhf9K4LhdgxkMF-11">
+          <mxGeometry x="-0.1842" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-6" value="Was legal?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEWHLRGhf9K4LhdgxkMF-13" target="QEWHLRGhf9K4LhdgxkMF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-13" value="Clicks piece" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEWHLRGhf9K4LhdgxkMF-14" target="QEWHLRGhf9K4LhdgxkMF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-14" value="Drag pieces" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-15" value="Another click" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-16" value="End Drag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-20" value="Create MoveData&lt;br&gt;From -&amp;gt; To" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
