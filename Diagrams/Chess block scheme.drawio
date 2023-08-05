@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T22:18:11.687Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="tlbqsWk2BO0ZLg4yKl0O" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T22:18:48.095Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="Tbmgehh8L7kyO5cNiHHh" version="21.6.6" type="github">
   <diagram name="Strona-1" id="0UkwQ23_jVnsr-kS8y7S">
     <mxGraphModel dx="2268" dy="1888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="QEWHLRGhf9K4LhdgxkMF-3" value="Serwer" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-190" y="40" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QEWHLRGhf9K4LhdgxkMF-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEWHLRGhf9K4LhdgxkMF-6">
+        <mxCell id="QEWHLRGhf9K4LhdgxkMF-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEWHLRGhf9K4LhdgxkMF-6" target="QEWHLRGhf9K4LhdgxkMF-38">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="155" y="520" as="targetPoint" />
           </mxGeometry>
@@ -70,22 +70,11 @@
         <mxCell id="QEWHLRGhf9K4LhdgxkMF-20" value="Create MoveData&lt;br&gt;From -&amp;gt; To&lt;br&gt;MoveType" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QEWHLRGhf9K4LhdgxkMF-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="QEWHLRGhf9K4LhdgxkMF-33">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="95" y="490" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="QEWHLRGhf9K4LhdgxkMF-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEWHLRGhf9K4LhdgxkMF-29" target="QEWHLRGhf9K4LhdgxkMF-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QEWHLRGhf9K4LhdgxkMF-29" value="Hide moves" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="490" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QEWHLRGhf9K4LhdgxkMF-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEWHLRGhf9K4LhdgxkMF-33" target="QEWHLRGhf9K4LhdgxkMF-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QEWHLRGhf9K4LhdgxkMF-33" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="35" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QEWHLRGhf9K4LhdgxkMF-35" value="Pieces moves" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="580" width="120" height="60" as="geometry" />
