@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T11:30:19.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="spAYjNY0PRE7vUxVoS3J" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T11:30:33.722Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="jpwGROvsIRqR77BXBMHN" version="21.6.6" type="github">
   <diagram name="Strona-1" id="sWvHeHsbtQ7tyAHec8jI">
     <mxGraphModel dx="1009" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,6 +197,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="350" as="sourcePoint" />
             <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X085a7n-Hd5efPPmGRvl-78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="30" as="sourcePoint" />
+            <mxPoint x="450" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
