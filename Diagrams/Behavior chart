@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T11:22:03.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="If5RE5An_QX4150EcLcC" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T11:29:50.610Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="5ppyaeDCncQhSYafdmab" version="21.7.2" type="github">
   <diagram name="Strona-1" id="K5C-Um2CozEV6rjactWF">
     <mxGraphModel dx="1009" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,6 +67,11 @@
         <mxCell id="L-hVpp92PrlAvNV-Akr8-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-14" target="L-hVpp92PrlAvNV-Akr8-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-63" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L-hVpp92PrlAvNV-Akr8-55">
+          <mxGeometry x="-0.4603" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="L-hVpp92PrlAvNV-Akr8-14" value="Has current task?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="374" y="440" width="80" height="80" as="geometry" />
         </mxCell>
@@ -108,19 +113,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="L-hVpp92PrlAvNV-Akr8-25" value="Can be started?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="334" y="650" width="80" height="80" as="geometry" />
+          <mxGeometry x="346" y="810" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="L-hVpp92PrlAvNV-Akr8-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-27" target="L-hVpp92PrlAvNV-Akr8-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L-hVpp92PrlAvNV-Akr8-27" value="Wait for special condition" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="62" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L-hVpp92PrlAvNV-Akr8-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-31" target="L-hVpp92PrlAvNV-Akr8-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L-hVpp92PrlAvNV-Akr8-31" value="Start new task" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="314" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="326" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L-hVpp92PrlAvNV-Akr8-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-34" target="L-hVpp92PrlAvNV-Akr8-37">
           <mxGeometry relative="1" as="geometry" />
@@ -134,7 +139,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L-hVpp92PrlAvNV-Akr8-34" value="Was Cancelled" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="334" y="870" width="80" height="80" as="geometry" />
+          <mxGeometry x="346" y="1030" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="L-hVpp92PrlAvNV-Akr8-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-37" target="L-hVpp92PrlAvNV-Akr8-10">
           <mxGeometry relative="1" as="geometry">
@@ -153,12 +158,12 @@
         <mxCell id="L-hVpp92PrlAvNV-Akr8-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-37" target="L-hVpp92PrlAvNV-Akr8-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="100" y="1050" />
+              <mxPoint x="112" y="1210" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="L-hVpp92PrlAvNV-Akr8-37" value="Was completed" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="334" y="1010" width="80" height="80" as="geometry" />
+          <mxGeometry x="346" y="1170" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="L-hVpp92PrlAvNV-Akr8-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-48" target="L-hVpp92PrlAvNV-Akr8-10">
           <mxGeometry relative="1" as="geometry">
@@ -215,6 +220,9 @@
         </mxCell>
         <mxCell id="L-hVpp92PrlAvNV-Akr8-54" value="Has next task" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-66" value="&lt;i&gt;To DO: Get Task after ability&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="730" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
