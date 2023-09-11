@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T11:29:50.610Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="5ppyaeDCncQhSYafdmab" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T11:32:24.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="-QLQCmTuBCdjMiKp6IZc" version="21.7.2" type="github">
   <diagram name="Strona-1" id="K5C-Um2CozEV6rjactWF">
     <mxGraphModel dx="1009" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="374" y="1110" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="760" y="980" />
+              <mxPoint x="760" y="1210" />
               <mxPoint x="760" y="340" />
             </Array>
           </mxGeometry>
