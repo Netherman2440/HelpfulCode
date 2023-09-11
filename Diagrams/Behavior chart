@@ -1,9 +1,172 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T10:45:45.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" version="21.7.2" etag="3nkVuicNwvOiKlcCLR4m" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T10:55:50.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="wMpbxI_2BefEAwS9VDrd" version="21.7.2" type="github">
   <diagram name="Strona-1" id="K5C-Um2CozEV6rjactWF">
-    <mxGraphModel>
+    <mxGraphModel dx="1009" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="374" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-2" target="L-hVpp92PrlAvNV-Akr8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-6" value="Nonr" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L-hVpp92PrlAvNV-Akr8-5">
+          <mxGeometry x="-0.1" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-2" target="L-hVpp92PrlAvNV-Akr8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-9" value="Half" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L-hVpp92PrlAvNV-Akr8-8">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-2" target="L-hVpp92PrlAvNV-Akr8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-12" value="Full" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L-hVpp92PrlAvNV-Akr8-11">
+          <mxGeometry x="-0.1556" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-2" value="What is the pilot type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-4" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-7" target="L-hVpp92PrlAvNV-Akr8-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-7" value="Wait for&amp;nbsp;&lt;br&gt;TaskManager.OnTaskCreated" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="150" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-10" target="L-hVpp92PrlAvNV-Akr8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-10" value="Behave" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-14" target="L-hVpp92PrlAvNV-Akr8-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-19" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L-hVpp92PrlAvNV-Akr8-17">
+          <mxGeometry x="-0.1667" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-14" target="L-hVpp92PrlAvNV-Akr8-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-22" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L-hVpp92PrlAvNV-Akr8-21">
+          <mxGeometry x="-0.0333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-14" value="Has current task?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-16" target="L-hVpp92PrlAvNV-Akr8-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-16" value="Wait on task to complete" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="194" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-20" target="L-hVpp92PrlAvNV-Akr8-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-20" value="Get last task type" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-23" target="L-hVpp92PrlAvNV-Akr8-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-23" value="Get next task" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-25" target="L-hVpp92PrlAvNV-Akr8-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-30" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L-hVpp92PrlAvNV-Akr8-28">
+          <mxGeometry x="0.0366" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-25" target="L-hVpp92PrlAvNV-Akr8-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-33" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L-hVpp92PrlAvNV-Akr8-32">
+          <mxGeometry x="-0.1778" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-25" value="Can be started?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-27" target="L-hVpp92PrlAvNV-Akr8-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-27" value="Wait for special condition" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-31" target="L-hVpp92PrlAvNV-Akr8-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-31" value="Start new task" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-34" target="L-hVpp92PrlAvNV-Akr8-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-39" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L-hVpp92PrlAvNV-Akr8-38">
+          <mxGeometry x="-0.05" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-34" target="L-hVpp92PrlAvNV-Akr8-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-34" value="Was Cancelled" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-37" target="L-hVpp92PrlAvNV-Akr8-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="374" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="980" />
+              <mxPoint x="760" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-43" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L-hVpp92PrlAvNV-Akr8-41">
+          <mxGeometry x="-0.8962" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-hVpp92PrlAvNV-Akr8-37" target="L-hVpp92PrlAvNV-Akr8-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-hVpp92PrlAvNV-Akr8-37" value="Was completed" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
