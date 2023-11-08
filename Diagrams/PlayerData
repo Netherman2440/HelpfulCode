@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T13:45:43.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="wB_mcLdFNeueGbYp97GT" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T14:51:04.859Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="uTBOGv7f0xKWHQeM3pM5" version="22.0.8" type="github">
   <diagram name="Strona-1" id="YS7s_jgEzhIx9T-9FKFY">
     <mxGraphModel dx="1187" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,7 +196,7 @@
         <mxCell id="XxtE1hYmb5dfZtZFin0U-96" value="GameSessionSaveData" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="1145" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XxtE1hYmb5dfZtZFin0U-100" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="XxtE1hYmb5dfZtZFin0U-108" target="XxtE1hYmb5dfZtZFin0U-94" edge="1">
+        <mxCell id="XxtE1hYmb5dfZtZFin0U-100" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="XxtE1hYmb5dfZtZFin0U-108" target="wcXrSxf4xTYBl0IG5LIG-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="1160" as="sourcePoint" />
             <mxPoint x="511" y="1210" as="targetPoint" />
@@ -214,7 +214,7 @@
           <mxGeometry x="90" y="1240" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XxtE1hYmb5dfZtZFin0U-108" value="ItemInventory (?)" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="660" y="1145" width="180" height="30" as="geometry" />
+          <mxGeometry x="827" y="1350" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XxtE1hYmb5dfZtZFin0U-111" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XxtE1hYmb5dfZtZFin0U-109" target="XxtE1hYmb5dfZtZFin0U-103" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -299,6 +299,9 @@
         </mxCell>
         <mxCell id="wcXrSxf4xTYBl0IG5LIG-14" value="int Level" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="1045" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wcXrSxf4xTYBl0IG5LIG-18" value="On Change &lt;br&gt;Inventory" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1325" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
