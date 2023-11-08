@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T09:05:19.612Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="qUPFBPIeycQ5qfOLkruZ" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T09:06:17.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="BO0_-USSz2S8AH0iVA_W" version="22.0.8" type="github">
   <diagram name="Strona-1" id="YS7s_jgEzhIx9T-9FKFY">
     <mxGraphModel dx="1187" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -277,10 +277,19 @@
           <mxGeometry x="380" y="860" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wcXrSxf4xTYBl0IG5LIG-2" value="On Game start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="270" y="900" width="120" height="80" as="geometry" />
+          <mxGeometry x="310" y="890" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wcXrSxf4xTYBl0IG5LIG-3" value="On passed save loaded" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="520" y="900" width="120" height="80" as="geometry" />
+          <mxGeometry x="560" y="890" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wcXrSxf4xTYBl0IG5LIG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wcXrSxf4xTYBl0IG5LIG-4" target="wcXrSxf4xTYBl0IG5LIG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wcXrSxf4xTYBl0IG5LIG-4" value="Item" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1180" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wcXrSxf4xTYBl0IG5LIG-8" value="ItemSaveData" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1260" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
