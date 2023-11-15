@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T08:47:11.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="GaXmrwDBCP9qfPjF3Hep" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T13:15:44.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="UFa_QJInPuawp2nvdo5k" version="22.1.1" type="github">
   <diagram name="Strona-1" id="YS7s_jgEzhIx9T-9FKFY">
     <mxGraphModel dx="2271" dy="2154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -479,14 +479,20 @@
         <mxCell id="BSQpQTAuLvP9_R4IUK1A-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="wcXrSxf4xTYBl0IG5LIG-20" target="BSQpQTAuLvP9_R4IUK1A-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mtPMrzCL9lAaUd7jQZ5J-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" vertex="1" parent="1">
+        <mxCell id="mtPMrzCL9lAaUd7jQZ5J-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" parent="1" vertex="1">
           <mxGeometry x="995" y="-930" width="85" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="mtPMrzCL9lAaUd7jQZ5J-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" vertex="1" parent="1">
+        <mxCell id="mtPMrzCL9lAaUd7jQZ5J-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" parent="1" vertex="1">
           <mxGeometry x="1050" y="-820" width="85" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="mtPMrzCL9lAaUd7jQZ5J-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" vertex="1" parent="1">
+        <mxCell id="mtPMrzCL9lAaUd7jQZ5J-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" parent="1" vertex="1">
           <mxGeometry x="1120" y="-760" width="85" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6Mw6ijDMIoy08wEQaD-K-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" vertex="1" parent="1">
+          <mxGeometry x="976" y="-650" width="85" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6Mw6ijDMIoy08wEQaD-K-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" vertex="1" parent="1">
+          <mxGeometry x="1027.5" y="-270" width="85" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
