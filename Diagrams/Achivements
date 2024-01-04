@@ -1,9 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T15:29:14.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" version="22.1.8" etag="0LTxSaKdcC8F3TiMUu8e" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T11:46:02.133Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 OPR/105.0.0.0" etag="LQrTYsagyTDRAdrIls9Y" version="22.1.16" type="github">
   <diagram name="Strona-1" id="NT4GNR6iAWHrakRFQTFe">
-    <mxGraphModel>
+    <mxGraphModel dx="1187" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yHg8KfpPU-aE94Heo-HF-1" target="yHg8KfpPU-aE94Heo-HF-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-1" value="Level Kill Key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yHg8KfpPU-aE94Heo-HF-2" target="yHg8KfpPU-aE94Heo-HF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-2" value="Level Key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yHg8KfpPU-aE94Heo-HF-3" target="yHg8KfpPU-aE94Heo-HF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-3" value="Level Resourc Key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yHg8KfpPU-aE94Heo-HF-4" target="yHg8KfpPU-aE94Heo-HF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-4" value="Level Time Key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-6" value="On Level End" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yHg8KfpPU-aE94Heo-HF-7" target="yHg8KfpPU-aE94Heo-HF-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-7" value="CurrentResource Key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yHg8KfpPU-aE94Heo-HF-8" target="yHg8KfpPU-aE94Heo-HF-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-8" value="Total Resource Key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yHg8KfpPU-aE94Heo-HF-9" target="yHg8KfpPU-aE94Heo-HF-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-9" value="Power Up Key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yHg8KfpPU-aE94Heo-HF-10" target="yHg8KfpPU-aE94Heo-HF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-10" value="Ability Key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yHg8KfpPU-aE94Heo-HF-11" target="yHg8KfpPU-aE94Heo-HF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-11" value="TotalKill Key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yHg8KfpPU-aE94Heo-HF-12" target="yHg8KfpPU-aE94Heo-HF-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-12" value="Add Status Key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yHg8KfpPU-aE94Heo-HF-13" target="yHg8KfpPU-aE94Heo-HF-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-13" value="Receive Status Key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-14" value="Total Time Key" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-20" value="On Resource&lt;br&gt;&amp;nbsp;Change" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-21" value="On Resource&lt;br&gt;&amp;nbsp;Add" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="390" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-23" value="On Power Up" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-24" value="On Power Up" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yHg8KfpPU-aE94Heo-HF-21" target="yHg8KfpPU-aE94Heo-HF-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-28" value="On Kill" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-30" value="On Add&lt;br&gt;Status" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-32" value="On Receive &lt;br&gt;Status" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yHg8KfpPU-aE94Heo-HF-34" value="On Start &lt;br&gt;Game" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
